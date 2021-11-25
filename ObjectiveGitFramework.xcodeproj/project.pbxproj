@@ -1687,7 +1687,7 @@
 				INFOPLIST_FILE = Info.plist;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/usr/local/opt/openssl/lib,
+					"/opt/homebrew/opt/openssl@3/lib",
 					"$(PROJECT_DIR)/External/build/lib",
 				);
 				MODULEMAP_FILE = ObjectiveGit.modulemap;
@@ -1702,6 +1702,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.libgit2.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = ObjectiveGit;
+				VALID_ARCHS = "x86_64 arm64";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -1716,7 +1717,7 @@
 				INFOPLIST_FILE = Info.plist;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/usr/local/opt/openssl/lib,
+					"/opt/homebrew/opt/openssl@3/lib",
 					"$(PROJECT_DIR)/External/build/lib",
 				);
 				MODULEMAP_FILE = ObjectiveGit.modulemap;
@@ -1731,6 +1732,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.libgit2.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = ObjectiveGit;
+				VALID_ARCHS = "x86_64 arm64";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
@@ -1956,7 +1958,7 @@
 				INFOPLIST_FILE = Info.plist;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/usr/local/opt/openssl/lib,
+					"/opt/homebrew/opt/openssl@3/lib",
 					"$(PROJECT_DIR)/External/build/lib",
 				);
 				MODULEMAP_FILE = ObjectiveGit.modulemap;
@@ -1971,6 +1973,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.libgit2.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = ObjectiveGit;
+				VALID_ARCHS = "x86_64 arm64";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Test;
@@ -2176,7 +2179,7 @@
 				INFOPLIST_FILE = Info.plist;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/usr/local/opt/openssl/lib,
+                    "/opt/homebrew/opt/openssl@3/lib",
 					"$(PROJECT_DIR)/External/build/lib",
 				);
 				MODULEMAP_FILE = ObjectiveGit.modulemap;
@@ -2191,6 +2194,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.libgit2.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = ObjectiveGit;
+				VALID_ARCHS = "x86_64 arm64";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Profile;
